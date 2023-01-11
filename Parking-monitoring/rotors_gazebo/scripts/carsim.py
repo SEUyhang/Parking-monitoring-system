@@ -12,7 +12,7 @@ from gazebo_msgs.srv import DeleteModel
 position_x = [-5.103021,-3.404368,2.479433,2.577461,9.443136,11.383706,10.106677,9.883789,2.557173,4.712056,-4.476666,-4.769073,9.495507,11.570071,2.865197,2.603516,-5.886975,-3.647739] #所有停车点的x坐标
 position_y = [6.899674,3.223762,6.964153,3.944118,7.063987,3.430657,-1.222709,-4.037406,-1.193896,-4.320618,-0.979300,-3.494447,-9.141672,-12.707073,-9.772421,-12.356461,-10.107197,-13.073170] #所有停车点的y坐标
 car_typelist = ["car_01","car_02","car_03","car_04","car_05","car_06","car_07","car_08","car_09","car_10","car_11","car_12","car_13"] #车辆的款式
-model_path = "/home/yhang/rotors_ws/src/rotors_simulator/rotors_simulator/rotors_gazebo/models" #模型的路径
+model_path = os.path.join("..","rotors_ws/src/Parking-monitoring-system/Parking-monitoring/rotors_gazebo/models") #模型的路径
 #exist_flag =[1,1,1,0,1,1,1,0,1,0,1,1,0,1,1,0,1,1,0,0] #标志位，第i个停车位有车则为1，没有车则为0
 exist_flag =[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0] #标志位，第i个停车位有车则为1，没有车则为0
 
