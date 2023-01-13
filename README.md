@@ -6,7 +6,7 @@
 ```shell
 mkdir -p ~/rotors_ws/src
 cd ~/rotors_ws/src
-git clone https://github.com/COOLAS-LAB/rotors_simulator
+git clone https://github.com/SEUyhang/Parking-monitoring-system.git
 cd ..
 catkin_make
 ```
@@ -52,4 +52,5 @@ roslaunch rotors_gazebo multi_uav.launch
 
 ## 6. 加载世界模型
 - 目前可在 gazebo 中直接插入组件
+- 世界模型在Parking-monitoring/rotors_gazebo/worlds中，launch中可修改默认的world
 - to be continue
