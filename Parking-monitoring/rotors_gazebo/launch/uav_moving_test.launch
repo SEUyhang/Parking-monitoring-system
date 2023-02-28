@@ -33,6 +33,6 @@
         <!-- pubilisher的节点都是给话题发布消息的节点 -->
         <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
         <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
-        <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="1 1 1 0 5"/>
+        <node name="waypoint_publisher1" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="0 0 1 0 5"/>
     </group>
 </launch>
